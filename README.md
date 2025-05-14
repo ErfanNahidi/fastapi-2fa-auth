@@ -44,10 +44,11 @@ pip install fastapi uvicorn sqlalchemy passlib[bcrypt] pyotp pyjwt
 1. **Clone**
 
    ```bash
+   git clone [https://github.com/your-repo/fastapi-2fa-auth.git](https://github.com/your-repo/fastapi-2fa-auth.git)
+   cd fastapi-2fa-auth
    ```
 
-git clone [https://github.com/your-repo/fastapi-2fa-auth.git](https://github.com/your-repo/fastapi-2fa-auth.git)
-cd fastapi-2fa-auth
+
 
 ````
 
@@ -95,6 +96,3 @@ curl -X POST http://localhost:8000/auth/verify-otp -d 'username=john&code=123456
 ## 📝 License
 
 MIT © 2025
-
-```
-```
